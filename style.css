@@ -1,0 +1,167 @@
+body {
+    margin: 10px;
+    background-image: url(images/triangle-mosaic.png);
+}
+
+.navbar{
+    background-color:#ffffff;
+    width: 100%;
+    margin: 0 auto;
+    border-color: #cccccc;
+    border-bottom-style: solid;
+    overflow: auto;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    height: auto;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bio {
+    overflow: auto;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.bio-img {
+    float: left;
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+/* ul{
+    list-style-type: none;
+    float: right;
+    margin: 0;
+}
+.navbar li {
+    display: inline;
+    border-right: 1px solid grey;
+}
+
+.navbar li:last-child{
+    border: none;
+}
+
+.navbar li a{
+    text-decoration:none;
+    display: table-cell;
+    text-align: center;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+a{
+    color: #666666
+}
+a:hover{
+    color: red;
+}
+a:active{
+    color: pink; */
+}
+
+.name{
+    color: #fff;
+    background-color: #4aaaa5;
+    padding: 20px;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: left;
+    
+}
+footer{
+    background-color:#666666;
+    width: 100%;
+    padding: 20px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    border-top: 8px solid #4aaaa5;
+    overflow: 0 auto;
+    position:fixed;
+    bottom: 0;
+
+}
+.about-me{
+    color: #4aaaa5;
+
+}
+.wrapper {
+    width: 750px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    margin-bottom: 100px;
+    overflow: auto;
+
+}
+form { line-height: 25px;
+    margin: 15px;
+
+}
+.contact{
+    width: 750px;
+    color: #4aaaa5;
+    padding: 20px;
+
+}
+
+.container2 {
+    width: 750px;
+    margin: 10px auto;
+    height: auto;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button{
+    padding: 20px;
+
+}
+.button:hover{
+    color: red;
+}
+
+.work {
+    position: relative;
+    /* width: 250px; */
+    margin: 20px 0;
+    overflow: auto;
+    float: left;
+    margin-left: 3.5%;
+     /* height: 200px; */
+
+}
+
+.work-image{
+    width: 300px;
+    height: 250px;
+
+}
+
+.work h3{
+    background-color: aquamarine;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.trivia{
+    margin-bottom: 10px;
+}
